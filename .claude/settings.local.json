@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(kubectl get:*)",
+      "Bash(docker build:*)",
+      "Bash(kubectl rollout:*)",
+      "Bash(kubectl config:*)",
+      "Bash(minikube image load:*)",
+      "Bash(kubectl delete:*)",
+      "Bash(minikube service:*)",
+      "Bash(minikube status:*)",
+      "Bash(kubectl describe:*)",
+      "Bash(kubectl logs:*)",
+      "Bash(kubectl apply:*)",
+      "Bash(minikube ip:*)",
+      "Bash(docker images:*)",
+      "Bash(kubectl wait:*)",
+      "Bash(minikube image ls:*)",
+      "Bash(minikube image rm:*)",
+      "Bash(docker tag:*)",
+      "Bash(kubectl set image:*)",
+      "Bash(docker run:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
